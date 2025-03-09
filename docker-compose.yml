@@ -22,7 +22,6 @@ services:
       - ME_CONFIG_BASICAUTH_USERNAME=user
       - ME_CONFIG_BASICAUTH_PASSWORD=user
 
-# Define named volumes
 volumes:
   mongo-data:
     driver: local
